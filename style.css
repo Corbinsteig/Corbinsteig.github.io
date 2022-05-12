@@ -1,10 +1,14 @@
-
-
 * {
   font-family: 'League Spartan', sans-serif;
   
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 #banner .inner {
   margin: 0 auto;
   width: 90em;
@@ -93,6 +97,7 @@
   flex-wrap: wrap;
   align-items: center;
   padding-bottom: 15rem;
+  
 }
 
 #Projects .content{
@@ -122,23 +127,27 @@
 }
 .capstoneVid {
   max-width: 200px;
+
 }
 .capstoneVideoDemo {
   max-width: 50%;
   height: auto;
+  padding-bottom: 20rem;
 }
 
 #contactInfo .content{
   margin: 0 auto;
   width: 90em;
   min-height: 50vh;
-
+  padding-top: 100px;
+  padding-bottom: 0;
 }
 #contactInfo .heading{
   font-size: 150px;
   margin: 0;
   text-align: center;
   max-width: 90vw;
+  
 }
 #contactInfo p{
   font-size: 1.5rem;
@@ -157,12 +166,12 @@
 
 .contactButton {
   display: inline-block;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 #sitefooter {
 text-align: center;
-padding-top: 30rem;
 max-width: 90vw;
+
 }
 
 .devicon-github-original:hover {
@@ -178,31 +187,37 @@ max-width: 90vw;
 #sitefooter .logo img {
   text-align: center;
   max-width: 8vw;
+  opacity: .8;
   }
+  #sitefooter .me img {
+    border-radius: 50%;
+    text-align: center;
+    border: 8px solid black;
+    max-width: 20vw;
+    cursor: pointer; 
+    }
   #site-nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    min-width: 20rem;
+    min-width: 30rem;
     z-index: 999;
-    background-color: #525e65;
+    background-color: black;
     text-align: center;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
   }
-  #site-nav .current-menu-item a, #site-nav .current-menu-parent a {
-    color: #73CCA8;
-    border-bottom: 4px solid #73CCA8;
-}
-#site-nav a {
+  #site-nav a {
   display: block;
   height: 3rem;
-  padding: 0 1rem;
-  color: #DBE8D4;
+  padding: 0 4rem;
+  color: #ffffff;
   line-height: 3em;
+  text-decoration: none;
 }
+
 a {
-  color: #73CCA8;
+  color: #000000;
   text-decoration: none;
   cursor: pointer;
 }
@@ -222,4 +237,13 @@ ul {
 #site-nav li {
   display: inline-block;
   padding-bottom: 0;
+}
+
+#site-nav a:hover{
+  color: rgb(255, 255, 255);
+  background-color: grey;
+}
+
+#site-nav a:focus{
+  color: grey;
 }

@@ -10,16 +10,18 @@
     <title>Document</title>
 </head>
 <body>
-    <nav id="site-nav" role="navigation">
-        <ul id="menu-primary-menu" class=""><li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-13 current_page_item menu-item-0 current-menu-item"><a title="home" href="/#home">Home</a></li>
-        <li id="menu-item-1" class="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-1"><a title="about" href="/#aboutMe">About</a></li>
-        <li id="menu-item-2" class="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-2"><a title="skills" href="/#skills">Skills</a></li>
-        <li id="menu-item-3" class="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-3"><a title="Projects" href="/#Projects">Projects</a></li>
+    <nav id="site-nav" role="navigation" class="focus">
+        <ul id="menu-primary-menu" class="siteNav">
+        <li id="menu-item-0" ><a title="home" href="">Home</a></li>
+        <li id="menu-item-1" ><a title="about" href="/#aboutMe">About</a></li>
+        <li id="menu-item-2" ><a title="skills" href="/#skills">Skills</a></li>
+        <li id="menu-item-3" ><a title="Projects" href="/#Projects">Projects</a></li>
+        <li id="menu-item-4" ><a title="Contact" href="/#contactInfo">Contact</a></li>
         </ul></nav>
     <div>
-        <section id = "banner" data-nav ="home">
+        <section id = "banner" >
             <div class = "inner">
-                <h1 class = "heading1">Corbin Steig</h1>
+                <h1 class = "heading1" data-nav ="home">Corbin Steig</h1>
                 <p>Full-Stack Web Developer</p>
             </div>
         </section>
@@ -79,13 +81,6 @@
                         <p class="skills-text">NodeJS</p>
                     </section>
                     <div class = "content">
-                    <h3 class = "smallHeading">Database Management</h3>
-                    </div>
-                    <section class = "skills-icon">
-                        <i class="devicon-postgresql-plain"></i>
-                        <p class="skills-text">Postgres</p>
-                    </section>
-                    <div class = "content">
                         <h3 class = "smallHeading">Tools</h3>
                     </div>
                     <section class = "skills-icon">
@@ -105,7 +100,7 @@
                 </div>
             </div>
          </section>
-         <section id="Projects"data-nav ="Projects" >
+         <section id="Projects" data-nav ="Projects" >
              <div class = "content">
                 <h2 class = "heading">Projects</h2>
                 <div class = "projectContent">
@@ -128,13 +123,16 @@
                 </span>
              </div>
          </section>
-         <section  id = "contactInfo">
+         <section  id = "contactInfo" data-nav ="contactInfo" >
              <div class = "content">
                 <!-- <h2 class = "heading">Get in Touch</h2>
                 <p>
                     The links below are a way for you to get in contact with me! Click at your own risk... 
                 </p> -->
-                <footer id="sitefooter">
+                <footer id="sitefooter" >
+                <div class = "me">
+                    <img src="me.png" alt="Me">
+                </div>
                 <div class = "logo">
                     <img src="unnamed.png" alt="logo">
                 </div>
