@@ -285,10 +285,11 @@ padding-bottom: 22vh;
 }
   #sitefooter .me img {
     max-width: 15vw;
-    cursor: pointer; 
+    
     }
     #sitefooter .me img:hover {
       opacity: 0.8;
+      cursor: url(./cursor.jpg), help;
       }
   #site-nav {
     position: fixed;
