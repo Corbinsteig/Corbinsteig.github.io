@@ -342,7 +342,7 @@ ul {
 #site-nav a:focus{
   color: grey;
 }
-@media (max-width: 414px) {
+@media (max-width: 500px) {
 
   #banner {
     height: 100vh;
