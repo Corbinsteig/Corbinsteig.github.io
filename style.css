@@ -2,7 +2,7 @@
   font-family: 'Bangers', cursive;
 }
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 1vw;
 }
 
 ::-webkit-scrollbar-track {
@@ -48,7 +48,7 @@ html, body {
 #banner .inner p{
   font-size: 100px;
   max-width: 110rem;
-  font-size: 6vw;
+  font-size: 5vw;
 }
 #banner .inner .heading1{
   font-size: 180px;
@@ -304,7 +304,7 @@ padding-bottom: 22vh;
   }
   #site-nav a {
   display: block;
-  height: 3rem;
+  height: 2.5rem;
   padding: 0 4rem;
   color: #ffffff;
   line-height: 3em;
@@ -342,3 +342,110 @@ ul {
 #site-nav a:focus{
   color: grey;
 }
+@media (max-width: 400px) {
+
+  #banner {
+    height: 100vh;
+    min-width: 800px;
+  }
+  #banner .inner .heading1{
+    font-size: 20vw;
+  }
+  #banner .inner p{
+    font-size: 8vw;
+    text-shadow: 4px 0 0 rgb(45 0 71), 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  }
+  #aboutMe {
+    font-size: 0.5rem;
+    height: 100vh;
+    min-width: 800px;
+  }
+  #aboutMe .heading {
+    font-size: 20vw;
+  }
+  #aboutMe .content p {
+    font-size: 4vw;
+    max-width: 90vw;
+    text-shadow: 4px 0 0 rgb(45 0 71), 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  }
+  #skills {
+    font-size: 0.5rem;
+    height: 100vh;
+    min-width: 800px;
+  }
+  #skills .heading {
+    font-size: 20vw;
+  }
+  .skills-icon {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 20px 40px 40px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-shadow: 4px 0 0 rgb(0 0 0), 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+  #Projects {
+    font-size: 0.5rem;
+    height: 100vh;
+    min-width: 800px;
+    margin: 0 auto;
+    width: 90em;
+  }
+  #Projects .heading{
+    font-size: 20vw;
+    margin: 0 auto;
+    width: 90em;
+  }
+  #Projects p{
+    font-size: 4vw;
+    max-width: 80vw;
+    text-shadow: 4px 0 0 rgb(45 0 71), 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  }
+  #Projects .content {
+  margin: 0 auto;
+  width: 90em;
+  min-height: 100vh;
+  padding-top: 60px;
+    
+}
+  .capstoneVideoDemo {
+    max-width: 40%;
+    height: auto;
+}
+  #site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1.5rem;
+    z-index: 999;
+    text-align: center;
+  }
+  #site-nav a {
+    display: block;
+    height: 2.5rem;
+    padding: 0.5rem;
+    color: #ffffff;
+    line-height: 3em;
+    text-decoration: none;
+  }
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+#sitefooter {
+    max-width: 100vw;
+}
+}
+
+  
+
