@@ -343,7 +343,7 @@ ul {
 #site-nav a:focus{
   color: grey;
 }
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
 
   #banner {
     background: rgb(90, 90, 90);
