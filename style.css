@@ -367,7 +367,7 @@ ul {
   #aboutMe .content{
     margin: 0 auto;
     width: 90em;
-    padding-top: 40px;
+    padding-top: 45px;
     min-height: 90vh;
   }
   #aboutMe .content p {
@@ -379,6 +379,11 @@ ul {
     font-size: 0.5rem;
     min-width: 800px;
   }
+  #skills .content {
+    margin: 0 auto;
+    width: 90em;
+    padding-top: 40px;
+}
   #skills .heading {
     font-size: 20vw;
   }
