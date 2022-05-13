@@ -343,7 +343,7 @@ ul {
 #site-nav a:focus{
   color: grey;
 }
-@media (max-width: 500px) {
+@media all and (max-width: 500px) {
 
   #banner {
     height: 100vh;
@@ -367,7 +367,8 @@ ul {
   #aboutMe .content{
     margin: 0 auto;
     width: 90em;
-    padding-top: 60px;
+    padding-top: 40px;
+    min-height: 90vh;
   }
   #aboutMe .content p {
     font-size: 4vw;
