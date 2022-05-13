@@ -98,12 +98,14 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 
 #skills .content{
   margin: 0 auto;
   width: 90em;
   padding-top: 60px;
+  
 }
 
 #skills .heading{
@@ -135,7 +137,6 @@ html, body {
   font-size: 50px;
   font-display: center;
   margin: 0;
-  
 }
 
 .skills-icon {
@@ -165,11 +166,11 @@ html, body {
   text-shadow: 4px 0 0 rgb(0, 0, 0), 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
 .skills-section{
+  padding-bottom: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  padding-bottom: 15rem;
   
 }
 
@@ -363,6 +364,11 @@ ul {
   #aboutMe .heading {
     font-size: 20vw;
   }
+  #aboutMe .content{
+    margin: 0 auto;
+    width: 90em;
+    padding-top: 60px;
+  }
   #aboutMe .content p {
     font-size: 4vw;
     max-width: 90vw;
@@ -370,7 +376,6 @@ ul {
   }
   #skills {
     font-size: 0.5rem;
-    height: 100vh;
     min-width: 800px;
   }
   #skills .heading {
@@ -388,6 +393,26 @@ ul {
     margin-bottom: 1rem;
     color: white;
     text-shadow: 4px 0 0 rgb(0 0 0), 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+  .skills-icon:hover{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 20px 40px 40px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    color: rgb(153, 152, 152);
+    text-shadow: 4px 0 0 rgb(0, 0, 0), 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+  .skills-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  /* padding-bottom: 15rem; */
 }
   #Projects {
     font-size: 0.5rem;
